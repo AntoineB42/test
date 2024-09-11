@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+
+.acceuil {
+    background: url('https://www.tousapied.be//content/uploads/2020/10/lili-popper-lu15z1m_KfM-unsplash-1400x787.jpg') no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acceuil .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.acceuil h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+.description p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.article {
+    padding: 40px;
+    text-align: center;
+}
+
+.article h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.article p {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
